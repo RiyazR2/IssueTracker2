@@ -30,12 +30,17 @@
 - npm install @radix-ui/themes
 - Import the global CSS file at the root of your application.
 - Add Theme to your application, wrapping the root component inside of body.
-- ThemePanel - radix-ui/themes 
-- Customized radix ui themes 
+- ThemePanel - radix-ui/themes
+- Customized radix ui themes
 - added markdown editor
-    -  npm install --save react-simplemde-editor easymde
 
-# React Hook Form
+  - npm install --save react-simplemde-editor easymde
+
 - npm install react-hook-form
-
-- npm i axios 
+- npm i axios
+- npm i @hookform/resolvers
+- implemented client side validation
+- PropsWithChildren
+- Extract ErrorMessage Component
+- Added Spinner - tailwind elements spinner
+- Seperation of Concern
