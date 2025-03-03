@@ -44,3 +44,5 @@
 - Extract ErrorMessage Component
 - Added Spinner - tailwind elements spinner
 - Seperation of Concern
+- shows issue page
+- build the issue status badge
