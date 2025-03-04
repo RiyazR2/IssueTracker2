@@ -46,3 +46,8 @@
 - Seperation of Concern
 - shows issue page
 - build the issue status badge
+- Add loading skeleton
+  - npm i delay
+  - npm i react-loading-skeleton
+- Showing Issue Details
+

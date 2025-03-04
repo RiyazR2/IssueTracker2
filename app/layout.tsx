@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 // import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
-import "./theme-config.css"
+import "./theme-config.css";
 import NavBar from "./NavBar";
 
 const inter = Inter({
@@ -42,7 +42,7 @@ export default function RootLayout({
         <Theme appearance="light" accentColor="violet">
           <NavBar />
           <main className="p-5">{children}</main>
-          <ThemePanel />
+          {/* <ThemePanel /> */}
         </Theme>
       </body>
     </html>
