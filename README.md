@@ -61,4 +61,6 @@
     - then use className="prose"
 - Build a Style Link Component
 - Add Additional Loading Skeleton
+- Disable Server Side Rendering
+- 
 

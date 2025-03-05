@@ -1,9 +1,10 @@
 "use client";
 
-import { Button, Callout, Text, TextField } from "@radix-ui/themes";
+import { Button, Callout, TextField } from "@radix-ui/themes";
 import SimpleMDE from "react-simplemde-editor";
 import "easymde/dist/easymde.min.css";
 import { useForm, Controller } from "react-hook-form";
+import dynamic from "next/dynamic";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -40,6 +41,10 @@ const NewIssuePage = () => {
       setError("an unexpected Error Occured");
       console.log(error);
     }
+  });
+
+  const SimpleMDE = dynamic(() => import("react-simplemde-editor"), {
+    ssr: false, // not to render this component on server
   });
 
   return (
