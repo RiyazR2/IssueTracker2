@@ -50,4 +50,15 @@
   - npm i delay
   - npm i react-loading-skeleton
 - Showing Issue Details
+- Style the Issue Detail Page
+- Add Markdown Preview - for proper markdown style, we need to install one more package
+  - npm i react-markdown
+  - tailwind typography
+    - npm install -D @tailwindcss/typography
+    - Then add the plugin to your main style.css file:
+      - import typography from "@tailwindcss/typography";
+      - plugins: [typography],
+    - then use className="prose"
+- Build a Style Link Component
+- Add Additional Loading Skeleton
 
