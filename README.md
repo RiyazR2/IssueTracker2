@@ -63,3 +63,7 @@
 - Add Additional Loading Skeleton
 - Disable Server Side Rendering
 - Re-Factor organizing imports
+- Adding the Edit Button
+  - for icons - npm i @radix-ui/react-icons
+- Single Responsiblity Principle
+  - Refactor: Apply the SRP
