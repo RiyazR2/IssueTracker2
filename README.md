@@ -67,3 +67,4 @@
   - for icons - npm i @radix-ui/react-icons
 - Single Responsiblity Principle
   - Refactor: Apply the SRP
+- Build the Issue Edit Page
