@@ -68,5 +68,19 @@
 - Single Responsiblity Principle
   - Refactor: Apply the SRP
 - Build the Issue Edit Page
-
 - Building an API
+  - build an API for updating an Issue
+- Update Issues
+- nextjs route segmnet config
+- Caching
+  - Data Cache
+    - When we fetch data using fetch()
+    - Stored in the file system
+    - Permanent until we redeploy
+  - Full Route Cache (Cache on the Server)
+    - Used to store the output of statically rendered routes
+  - Router Cache (client-sided Cache)
+    - To store the payload of pages in browser
+    - lasts for a session
+    - Gets refreshed when we reload
+- Fixed Caching Issue
