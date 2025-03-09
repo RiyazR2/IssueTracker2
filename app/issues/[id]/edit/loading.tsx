@@ -1,3 +1,6 @@
-import IssueFormSkeleton from "../../_components/IssueFormSkeleton";
+// import IssueFormSkeleton from "../../_components/IssueFormSkeleton";
 
-export default IssueFormSkeleton
+// export default IssueFormSkeleton
+
+import IssueFormSkeleton from "../../_components/IssueFormSkeleton";
+export default IssueFormSkeleton;
