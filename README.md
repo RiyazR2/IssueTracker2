@@ -84,3 +84,6 @@
     - lasts for a session
     - Gets refreshed when we reload
 - Fixed Caching Issue
+- Improve the loading skeleton
+  - Fix for the ssr: false Issue in EditIssuePage: Added use client at the top of IssueForm,Create a new Client Component (IssueFormWrapper.tsx) to dynamically load IssueForm
+- Add Delete Button
