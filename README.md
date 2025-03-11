@@ -93,3 +93,6 @@
 - Handle Errors
 - Improve User Experience while deleting
 - Remove Duplicate skeletons
+
+# Authentication - nextAuth
+- npm install next-auth
