@@ -18,14 +18,6 @@ const IssueDetailPage = async ({ params }: Props) => {
 
   return (
     <Grid columns={{ initial: "1", sm: "5" }} gap="5">
-      {/* 
-      initial Phones (portrait) 0px 
-      xs Phones (landscape) 520px 
-      sm Tablets (portrait) 768px 
-      md Tablets (landscape) 1024px 
-      lg Laptops 1280px 
-      xl Desktops 1640px 
-      */}
       <Box className="md:col-span-4">
         <IssueDetails issue={issue} />
       </Box>

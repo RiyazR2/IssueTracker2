@@ -87,3 +87,9 @@
 - Improve the loading skeleton
   - Fix for the ssr: false Issue in EditIssuePage: Added use client at the top of IssueForm,Create a new Client Component (IssueFormWrapper.tsx) to dynamically load IssueForm
 - Add Delete Button
+- Add Confirmation Dialog Box
+- Build an API for deleting an Issue
+- Delete an Issue
+- Handle Errors
+- Improve User Experience while deleting
+- Remove Duplicate skeletons
