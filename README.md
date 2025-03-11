@@ -95,4 +95,10 @@
 - Remove Duplicate skeletons
 
 # Authentication - nextAuth
+
 - npm install next-auth
+- setup nextAuth
+- Configure Google Provider
+- Adding the Prisma Adapter
+  - npm install @prisma/client @next-auth/prisma-adapter
+  - npm install prisma --save-dev
