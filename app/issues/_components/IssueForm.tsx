@@ -123,6 +123,7 @@ const IssueForm = ({ issue }: { issue?: Issue }) => {
     } catch (error) {
       setSubmitting(false);
       setError("An unexpected error occurred.");
+      console.log("Error", error);
     }
   });
 
