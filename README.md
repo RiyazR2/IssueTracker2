@@ -110,7 +110,9 @@
 - Secure the Application
 
 # Assigning Issues to Users
+
 - Build the AssigneeSelect Component
 - Populate the AssigneeSelect Component
-- Settingup React Query
+- Setting up React Query
   - npm install @tanstack/react-query
+- Fetch Data with React Query
