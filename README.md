@@ -107,3 +107,4 @@
 - Added Dropdown Menu
 - Troubleshoot Avatar not loading
 - Adding a loading skeleton to login
+- Secure the Application
