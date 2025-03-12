@@ -102,4 +102,7 @@
 - Adding the Prisma Adapter
   - npm install @prisma/client @next-auth/prisma-adapter
   - npm install prisma --save-dev
-- add the login and logout links
+- Add the login and logout links
+- Change layout of the navbar
+- Added Dropdown Menu
+- Troubleshoot Avatar not loading
