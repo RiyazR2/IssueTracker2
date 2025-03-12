@@ -112,3 +112,5 @@
 # Assigning Issues to Users
 - Build the AssigneeSelect Component
 - Populate the AssigneeSelect Component
+- Settingup React Query
+  - npm install @tanstack/react-query
