@@ -102,3 +102,4 @@
 - Adding the Prisma Adapter
   - npm install @prisma/client @next-auth/prisma-adapter
   - npm install prisma --save-dev
+- add the login and logout links

@@ -9,18 +9,18 @@
 
 //************************************ */
 
-import type { NextConfig } from "next";
+// import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  reactStrictMode: false,
-  onDemandEntries: {
-    webpackHotMiddleware: {
-      client: false,
-    },
-  },
-};
+// const nextConfig: NextConfig = {
+//   reactStrictMode: false,
+//   onDemandEntries: {
+//     webpackHotMiddleware: {
+//       client: false,
+//     },
+//   },
+// };
 
-export default nextConfig;
+// export default nextConfig;
 
 /**************************************** */
 
@@ -35,3 +35,14 @@ export default nextConfig;
 // };
 
 // export default nextConfig;
+
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  reactStrictMode: false,
+  onDemandEntries: {
+    // Remove the invalid webpackHotMiddleware option
+  },
+};
+
+export default nextConfig;
