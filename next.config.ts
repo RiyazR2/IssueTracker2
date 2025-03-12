@@ -1,11 +1,22 @@
-// import type { NextConfig } from "next";
+import type { NextConfig } from "next";
 
-// const nextConfig: NextConfig = {
-//   /* config options here */
+const nextConfig: NextConfig = {
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [
+          {
+            key: "referrer-policy",
+            value: "no-referrer",
+          },
+        ],
+      },
+    ];
+  },
+};
 
-// };
-
-// export default nextConfig;
+export default nextConfig;
 
 //************************************ */
 
@@ -36,13 +47,15 @@
 
 // export default nextConfig;
 
-import type { NextConfig } from "next";
+/****************** worked */
 
-const nextConfig: NextConfig = {
-  reactStrictMode: false,
-  onDemandEntries: {
-    // Remove the invalid webpackHotMiddleware option
-  },
-};
+// import type { NextConfig } from "next";
 
-export default nextConfig;
+// const nextConfig: NextConfig = {
+//   reactStrictMode: false,
+//   onDemandEntries: {
+//     // Remove the invalid webpackHotMiddleware option
+//   },
+// };
+
+// export default nextConfig;
