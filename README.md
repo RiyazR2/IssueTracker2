@@ -108,3 +108,7 @@
 - Troubleshoot Avatar not loading
 - Adding a loading skeleton to login
 - Secure the Application
+
+# Assigning Issues to Users
+- Build the AssigneeSelect Component
+- Populate the AssigneeSelect Component
