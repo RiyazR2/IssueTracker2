@@ -116,3 +116,4 @@
 - Setting up React Query
   - npm install @tanstack/react-query
 - Fetch Data with React Query
+- Add Assigned Issue to Prisma Schema
