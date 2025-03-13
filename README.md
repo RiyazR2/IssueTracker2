@@ -117,3 +117,6 @@
   - npm install @tanstack/react-query
 - Fetch Data with React Query
 - Add Assigned Issue to Prisma Schema
+- Implementing the API
+  - Postman Extension started Using
+
