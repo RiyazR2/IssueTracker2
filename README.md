@@ -124,3 +124,6 @@
   - npm i react-hot-toast
 - Refactor the AssigneeSelect Component
 
+# Filter, Sorting and Pagination
+
+- Building the filter component
