@@ -119,4 +119,5 @@
 - Add Assigned Issue to Prisma Schema
 - Implementing the API
   - Postman Extension started Using
+- Assign an issue to user
 
