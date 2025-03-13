@@ -120,4 +120,7 @@
 - Implementing the API
   - Postman Extension started Using
 - Assign an issue to user
+- Shows Toast Notifications
+  - npm i react-hot-toast
+- Refactor the AssigneeSelect Component
 
