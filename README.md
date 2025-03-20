@@ -127,3 +127,7 @@
 # Filter, Sorting and Pagination
 
 - Building the filter component
+- Sort Issues
+  - Added an orderDirection parameter to searchParams to toggle between "asc" and "desc".
+  - Adjusted the orderBy in the Prisma query to use orderDirection.
+  - Added the ArrowDownIcon for descending order and toggled the icon based on the current sorting direction.
