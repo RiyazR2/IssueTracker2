@@ -134,3 +134,7 @@
 - Pagination - build the layout of pagination component
 - Paginate Issue
 - Refactor: Extract IssueTable Component
+
+# Dashboard
+
+- Build LatestIssue Component
