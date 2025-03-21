@@ -18,10 +18,10 @@ const IssueStatusFilter = () => {
   const searchParams = useSearchParams();
   return (
     <Select.Root
-      defaultValue={searchParams.get("status") || ""}
+      defaultValue={searchParams.get("status") || "ALL"}
       onValueChange={(status) => {
         const params = new URLSearchParams();
-        if (status) params.append("status", status);
+        if (status && status !== "ALL") params.append("status", status);
 
         if (searchParams.get("orderBy"))
           params.append("orderBy", searchParams.get("orderBy")!);
@@ -35,7 +35,7 @@ const IssueStatusFilter = () => {
         {statuses.map((status) => (
           <Select.Item
             key={status.value || status.label}
-            value={status.value || ""}
+            value={status.value || "ALL"}
           >
             {status.label}
           </Select.Item>

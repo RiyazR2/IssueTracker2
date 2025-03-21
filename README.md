@@ -132,3 +132,5 @@
   - Adjusted the orderBy in the Prisma query to use orderDirection.
   - Added the ArrowDownIcon for descending order and toggled the icon based on the current sorting direction.
 - Pagination - build the layout of pagination component
+- Paginate Issue
+- Refactor: Extract IssueTable Component
