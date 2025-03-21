@@ -138,3 +138,7 @@
 # Dashboard
 
 - Build LatestIssue Component
+- Build the IssueSummary Component
+- Build the BarChart Component
+  - npm install recharts@2.8.0
+- Laying out the Dashboard
