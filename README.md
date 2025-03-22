@@ -142,3 +142,6 @@
 - Build the BarChart Component
   - npm install recharts@2.8.0
 - Laying out the Dashboard
+
+
+# Going to production
