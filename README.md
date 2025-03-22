@@ -149,4 +149,14 @@
 - optimize performance using react cache
 - Removing .env file
   - python git-filter-repo.py --path .env --invert-paths --force
--
+- Settup Error Tracking
+- Error Tracking Tools
+  - Sentry
+  - BugSnag
+  - LockRocket
+- sentry.io
+  - npx @sentry/wizard@latest -i nextjs --saas --org student-prh --project javascript-nextjs
+
+  - npx @sentry/wizard@latest -i nextjs --saas --org student-prh --project javascript-nextjs
+- https://452687b40d17415e23252b4013de03fd@o4509021458137088.ingest.de.sentry.io/4509021462069328
+
