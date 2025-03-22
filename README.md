@@ -145,3 +145,5 @@
 
 
 # Going to production
+- add metadata
+- optimize performance using react cache
