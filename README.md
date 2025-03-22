@@ -143,7 +143,10 @@
   - npm install recharts@2.8.0
 - Laying out the Dashboard
 
-
 # Going to production
+
 - add metadata
 - optimize performance using react cache
+- Removing .env file
+  - python git-filter-repo.py --path .env --invert-paths --force
+-
