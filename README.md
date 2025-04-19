@@ -1,11 +1,11 @@
 ## Issue Tracker App
 
-- npm install react-icons
-- npm i classnames
+- npm install react-icons@4.11.0
+- npm i classnames@2.3.2
 - Installed MySQL
 - DataGrip
 - setting up prisma
-- npm i prisma
+- npm i prisma@5.3.1
 - npx prisma init
 - npx prisma format - after creating issue model
 - npx prisma migrate dev - initial migration
@@ -20,7 +20,7 @@
 
 # Building an API
 
-- npm i zod - validations
+- npm i zod@3.22.2 - validations
 - to store issue in Database, we need prisma client, single instance of prisma client
 - search next.js prisma client, we get sample code for creating instance of prisma client
 - prisma folder create client.ts then paste that code
@@ -36,9 +36,9 @@
 
   - npm install --save react-simplemde-editor easymde
 
-- npm install react-hook-form
-- npm i axios
-- npm i @hookform/resolvers
+- npm install react-hook-form@7.46.1
+- npm install axios@1.5.0
+- npm i @hookform/resolvers@3.3.1
 - implemented client side validation
 - PropsWithChildren
 - Extract ErrorMessage Component
@@ -48,7 +48,7 @@
 - build the issue status badge
 - Add loading skeleton
   - npm i delay
-  - npm i react-loading-skeleton
+  - npm i react-loading-skeleton@3.3.1
 - Showing Issue Details
 - Style the Issue Detail Page
 - Add Markdown Preview - for proper markdown style, we need to install one more package
