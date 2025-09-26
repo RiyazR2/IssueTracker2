@@ -155,3 +155,13 @@
   - BugSnag
   - LockRocket
 - sentry.io
+-
+
+- IssueTrackerSupabase - password
+
+Project URL = https://cbvfqytjtxoodaxpsyqg.supabase.co
+A RESTful endpoint for querying and managing your database.
+
+API Key = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNidmZxeXRqdHhvb2RheHBzeXFnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4NzExNTQsImV4cCI6MjA3NDQ0NzE1NH0.EP-02-0gIpvsLhQstD1sXTfRwMoRDODHPepzC2TrPMk
+anon
+public
