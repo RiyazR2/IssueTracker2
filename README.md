@@ -157,14 +157,9 @@
 - sentry.io
 -
 
-- IssueTrackerSupabase - password
+## Database Migration Notes
 
-Project URL = https://cbvfqytjtxoodaxpsyqg.supabase.co
-A RESTful endpoint for querying and managing your database.
-
-API Key = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNidmZxeXRqdHhvb2RheHBzeXFnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4NzExNTQsImV4cCI6MjA3NDQ0NzE1NH0.EP-02-0gIpvsLhQstD1sXTfRwMoRDODHPepzC2TrPMk
-anon
-public
-
-- IssueTrackerSupabase - 2026
-- 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 = CS
+**Migrated from Supabase to Neon**
+- Reason: Supabase free tier pauses after 7 days
+- Solution: Neon PostgreSQL (never pauses on free tier)
+- See MIGRATION_GUIDE.md for details
